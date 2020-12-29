@@ -10,7 +10,10 @@
 
 - Criando um pod com base no postgre.yml
         kubectl apply -f postgre.yml -n postgres
-
+        
+        ´´´bash
+        $ kubectl apply 
+        ´´´
 - Fazendo login com o usuario root do vault.
 
         kubectl exec -ti vault-0 -n vault -- vault login
